@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Pro salud</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <link rel="stylesheet" href="css/estilodoc.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <link rel="shortcut icon" href="img/icons.png">
+</head>
+<body>
+  
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+          <img src="img/por.jpg" alt="">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Prueba.php">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="doctores.html">Doctores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="seguros.html">Seguros</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+      
+      <div class="container my-4">
+        <hr class="my-4">
+    
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+          </div>
+          <!--/.Controls-->
+    
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            <li data-target="#multi-item-example" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+    
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+    
+            <!--First slide-->
+            <div class="carousel-item active">
+    
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/Derma.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Dermatologia</h4>
+                      <p class="card-text">La dermatología es la especialidad médica que estudia y trata el órgano cutáneo, el médico especializado en este órgano es llamado "dermatólogo".</p>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/cirujano.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Cirujano</h4>
+                      <p class="card-text">Un cirujano es todo aquel médico que sea capaz de prevenir, diagnosticar y curar enfermedades ejerciendo la cirugía.</p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/gastro.webp"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Gastroenterología</h4>
+                      <p class="card-text">La gastroenterología es la especialidad médica que se ocupa de las enfermedades del aparato digestivo y órganos asociados, conformado por: esófago, estómago, hígado y vías biliares, páncreas, intestino delgado (duodeno, yeyuno, íleon), colon y recto.</p>   
+                          </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!--/.First slide-->
+    
+            <!--Second slide-->
+            <div class="carousel-item">
+    
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/oncologo.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">oncología</h4>
+                      <p class="card-text">La oncología es la rama de la medicina que estudia y trata las neoplasias, con especial atención a los tumores malignos o cáncer. Como especialidad médica, derivada del tronco de la medicina interna, se dedica al diagnóstico y tratamiento del cáncer.</p>
+                                           </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/gine.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Ginecología</h4>
+                      <p class="card-text">La ginecología, en medicina hace referencia a la especialidad médica y quirúrgica que estudia el sistema reproductor femenino (útero, vagina y ovarios).</p>
+                            </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/pediatra.jpeg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Pediatra</h4>
+                      <p class="card-text">La pediatría es la especialidad médica que estudia al niño y sus enfermedades,​ pero su contenido es mucho mayor que la curación de las enfermedades de los niños, ya que la pediatría estudia tanto al niño sano como al enfermo.</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!--/.Second slide-->
+    
+            <!--Third slide-->
+            <div class="carousel-item">
+    
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/oftal.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Oftalmologo</h4>
+                      <p class="card-text">La Oftalmología, es la especialidad médica que estudia las enfermedades de ojo y su tratamiento, incluyendo el globo ocular, su musculatura, el sistema lagrimal y los párpados.</p>
+                                           </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/cardiologo.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Cardiología</h4>
+                      <p class="card-text">La cardiología es la rama de la medicina que se encarga del estudio, diagnóstico y tratamiento de las enfermedades del corazón y del aparato circulatorio. Es médica, pero no quirúrgica.</p>
+                            </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="img/urologo.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Urología</h4>
+                      <p class="card-text">La urología es la especialidad médico-quirúrgica que se ocupa del estudio, diagnóstico y tratamiento de las patologías que afectan al aparato urinario, glándulas suprarrenales y retroperitoneo de ambos sexos, así como el aparato reproductor masculino.</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <!-- <div class="carousel-item">
+    
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="img/COVID19.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">COVID-19</h4>
+                    <p class="card-text">	El COVID-19 Es una enfermedad infecciosa causada por el virus SARS-CoV-2.
+                      Produce síntomas similares a los de la gripe o catarro, entre los que se incluyen fiebre, tos, disnea, mialgia y fatiga.  En casos graves se caracteriza por producir neumonía, síndrome de dificultad respiratoria aguda,  sepsis y choque séptico que conduce a cerca de 3,75 % de los infectados a la muerte según la OMS.No existe tratamiento específico; las medidas terapéuticas principales consisten en aliviar los síntomas y mantener las funciones vitales. 
+                      </p>
+                    </div>
+                  </div>
+                </div> -->
+    
+              
+    
+              </div>
+    
+            </div>
+            <!--/.Third slide-->
+    
+          </div>
+          <!--/.Slides-->
+    
+        </div>
+        <!--/.Carousel Wrapper-->
+    
+    
+      </div>>
+      <!-- _____ -->     
+      <!-- <div class="row row justify-content-center">
+        <div class="card mt-3 mr-3 ml-3 mb-3" style="width: 22rem;">
+            <img src="img/Derma.jpg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title">Dermatologia</h5>
+                          </div>
+          </div>
+          <div class="card mt-3 mr-3 mb-3" style="width: 22rem;">
+            <img src="img/cirujano.jpg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title">Cirujano</h5>
+              <p class="card-text">Un cirujano es todo aquel médico que sea capaz de prevenir, diagnosticar y curar enfermedades ejerciendo la cirugía.</p>
+            </div>
+          </div>
+          <div class="card mt-3 mr-3 mb-3" style="width: 22rem;">
+            <img src="img/oncologo.jpg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title"> Oncología </h5>
+              <p class="card-text">La oncología es la rama de la medicina que estudia y trata las neoplasias, con especial atención a los tumores malignos o cáncer. Como especialidad médica, derivada del tronco de la medicina interna, se dedica al diagnóstico y tratamiento del cáncer.</p>
+            </div>
+          </div> -->
+      
+          <!-- _________ -->
+      
+          <!-- <div class="card mt-3 mr-3 mb-3" style="width: 22rem;">
+            <img src="img/gastro.webp" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title">Gastroenterología</h5>
+              <p class="card-text">La gastroenterología es la especialidad médica que se ocupa de las enfermedades del aparato digestivo y órganos asociados, conformado por: esófago, estómago, hígado y vías biliares, páncreas, intestino delgado (duodeno, yeyuno, íleon), colon y recto.</p>   
+                     </div>
+          </div>
+          <div class="card mt-3 mr-3 mb-3" style="width: 22rem;">
+            <img src="img/gine.jpg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title">Ginecología</h5>
+              <p class="card-text">La ginecología, en medicina hace referencia a la especialidad médica y quirúrgica que estudia el sistema reproductor femenino (útero, vagina y ovarios). Además existe, en relación con lo expuesto antes, la especialidad de obstetricia, a tal punto que casi todos los ginecólogos modernos son también médicos obstetras.</p>
+            </div>
+          </div>
+       
+          <div class="card mt-3 mr-3 mb-3" style="width: 22rem;">
+            <img src="img/pediatra.jpeg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title"> Pediatra </h5>
+              <p class="card-text">La pediatría es la especialidad médica que estudia al niño y sus enfermedades,​ pero su contenido es mucho mayor que la curación de las enfermedades de los niños, ya que la pediatría estudia tanto al niño sano como al enfermo.
+      Cronológicamente, la pediatría abarca desde el nacimiento hasta que el niño llegue a la adolescencia, normalmente hasta los 18 años incluso hay organismos internacionales que extienden la edad hasta los 21 años.</p>
+            </div>
+          </div>
+  
+          
+          <div class="card mt-3 mr-3 mb-3" style="width: 44rem;">
+            <img src="img/COVID.jpg" class="card-img-top" alt="HOLA">
+            <div class="card-body">
+              <h5 class="card-title"> COVID-19 </h5>
+              <p class="card-text">	El COVID-19 Es una enfermedad infecciosa causada por el virus SARS-CoV-2.
+                Produce síntomas similares a los de la gripe o catarro, entre los que se incluyen fiebre, tos, disnea, mialgia y fatiga.  En casos graves se caracteriza por producir neumonía, síndrome de dificultad respiratoria aguda,  sepsis y choque séptico que conduce a cerca de 3,75 % de los infectados a la muerte según la OMS.No existe tratamiento específico; las medidas terapéuticas principales consisten en aliviar los síntomas y mantener las funciones vitales. 
+                </p>
+            </div>
+          </div> -->
+
+      <br>
+      <div class="tabla">
+      <table class="table">
+        <h1>Lista de doctores</h1>
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Ubicación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td scope="row">Luz</td>
+            <td>Monroy</td>
+            <td>Gastroenterología</td>
+            <td>Guatemala, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Ludwin</td>
+            <td>Barrera</td>
+            <td>Cirujano</td>
+            <td>Santa Rosa, Santa Rosa</td>
+          </tr>
+          <tr>
+            <td scope="row">Byron</td>
+            <td>Chevez</td>
+            <td>Oncología</td>
+            <td>Sacatepequez, Sacatepequez</td>
+          </tr>
+          <tr>
+            <td scope="row">Angelica</td>
+            <td>Gonzalez</td>
+            <td>Medicina general</td>
+            <td>El Progreso, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Alejandro</td>
+            <td>Martinez</td>
+            <td>Pediatría</td>
+            <td>Jalpatagua, Jutiapa</td>
+          </tr>
+       
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Andrea</td>
+            <td>Larraondo</td>
+            <td>Dermatología</td>
+            <td>Guatemala, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Roman</td>
+            <td>Ruiz</td>
+            <td>Oncología</td>
+            <td>Cuilapa, Santa Rosa</td>
+          </tr>
+          <tr>
+            <td scope="row">Jorge</td>
+            <td>Contreras</td>
+            <td>Pediatría</td>
+            <td>Asunción mita, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Milovan</td>
+            <td>Chicas</td>
+            <td>Pediatría</td>
+            <td>El Progreso, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Fernanda</td>
+            <td>Salguero</td>
+            <td>Gastroenterólogo</td>
+            <td>El Progreso, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Jacinto</td>
+            <td>Cámbara</td>
+            <td>Gastroenterólogo</td>
+            <td>Jutiapa, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Francisco</td>
+            <td>López</td>
+            <td>Oftalmologia</td>
+            <td>Mixco, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Estevan</td>
+            <td>Salvatierra</td>
+            <td>Urólogia</td>
+            <td> Mixco, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Rodrigo</td>
+            <td>Ramírez</td>
+            <td>Ginecologo</td>
+            <td>San Cristobal, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Valentina</td>
+            <td>Recinos</td>
+            <td>Cardiologia</td>
+            <td>San José Pinula, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Diana</td>
+            <td>Barrera</td>
+            <td>Ginecologa</td>
+            <td> Sta. Catarina Pinula, Guatemala</td>
+          </tr>
+          <tr>
+            <td scope="row">Erick</td>
+            <td>Rivera</td>
+            <td>Gastroenterología</td>
+            <td> Monjas, Jalapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Regina</td>
+            <td>Aguilar</td>
+            <td>Dermatóloga</td>
+            <td>San Manuel Chaparrón, Jalapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Joel</td>
+            <td>Medina</td>
+            <td>Oncologo</td>
+            <td>Jalapa, Jalapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Francisco</td>
+            <td>Lucero</td>
+            <td>Neurólogo</td>
+            <td>Monjas, Jalapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Enrique</td>
+            <td>Guzmán</td>
+            <td>Parasitólogo</td>
+            <td>Quesada, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Darlin</td>
+            <td>Orozco</td>
+            <td>Oncología</td>
+            <td>Río Hondo, Zacapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Alex</td>
+            <td>Cermeño</td>
+            <td></td>
+            <td>Taxisco, Santa Rosa</td>
+          </tr>
+          <tr>
+            <td scope="row">Gabriela</td>
+            <td>Cardona</td>
+            <td>Pediatra</td>
+            <td>Sacatepequez, Sacatepequez</td>
+          </tr>
+          <tr>
+            <td scope="row">Marvin</td>
+            <td>Avalos</td>
+            <td>Cirujano</td>
+            <td>Carchá, Cobán</td>
+          </tr>
+          <tr>
+            <td scope="row">Manuel</td>
+            <td>Gómez</td>
+            <td>Cirujano</td>
+            <td>Mixco, Guatemala</td>
+          </tr>
+          
+            <td scope="row">Pamela</td>
+            <td>González</td>
+            <td>Psicóloga</td>
+            <td>Asunción mita, Jutiapa</td>
+          </tr>
+          <tr>
+            <td scope="row">Jimena</td>
+            <td>Suarez</td>
+            <td>oftalmologa</td>
+            <td>Palín, Escuintla</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+      </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+ 
+  <hr>
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Farmacia Pro salud</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>La Sociedad guatemalteca, en muchas ocasiones carece de avances técnicos que le impiden optimizar tiempo y recursos; el avance tecnológico de Guatemala y la preparación técnica y profesional no está a gran escala como los países de gran desarrollo, por suerte existen diversas personas o entidades que buscan mejorar servicios y productos con la finalidad de aumentar beneficios y provechos de este.</p>
+
+      </div>
+      <!-- Grid column -->
+
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Direccion</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Jutiapa, Jutiapa</a>
+        </p>
+        <p>
+          <a href="#!">Asunción Mita, Jutiapa</a>
+        </p>
+        <p>
+          <a href="#!">El progreso, Jutiapa</a>
+        </p>
+        <p>
+          <a href="#!">Cuilapa, Santa Rosa</a>
+        </p>
+        <p>
+          <a href="#!">Barberena, Santa Rosa</a>
+        </p>
+              <p>
+          <a href="#!">Guatemala, Guatemala</a>
+        </p>
+  <p>
+
+    <a href="#!"> Río Hondo, Zacapa</a>
+  </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        
+        <h6 class="text-uppercase font-weight-bold">Contactanos</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> 78442130</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> 78452223</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> 78431574</p>
+        <p>
+          <i class="fas fa-print mr-3"></i>77285014</p>
+          <p>
+            <i class="fas fa-home mr-3"></i> 78879634</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> 79618585</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 24220198</p>
+          
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center  py-3">©️ 2020 Copyright:
+    <a href="index.html"> Farmacia Pro Salud</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>

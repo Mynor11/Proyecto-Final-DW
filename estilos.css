@@ -1,0 +1,110 @@
+#contenedor{
+    width: 100%;
+    height: 500px;
+
+}
+#navbar-nav {
+    float: right;
+
+}
+#seccion {
+    width: 60%;
+    height: 500px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    box-shadow:1px 1px 10px black;
+    display: inline-flex;
+    }
+    #visual{
+        background-color: blueviolet;
+        height: 375px;
+        width: 600px;
+        
+    }
+
+    #Slider
+    { 
+        background-color: darkred;
+        width: 800px;
+        height: 475px;
+        margin: auto;
+        overflow: hidden;
+        display: inline-flex;
+        border-color: black;
+    }
+    #Slider > ul {
+        padding: 0px;
+        display: flex;
+        width: 800px;
+        height: 475px;
+        animation: cambio 10s infinite;
+        
+    }
+    #Slider li{ 
+        list-style: none ;
+        width: 800px;
+    }
+      #Slider ul > li > img { 
+        width: 800px;
+        height: 475px;
+    }
+    @keyframes cambio {
+    0% {margin-left: 0px;}
+    40% {margin-left: 0px;}
+
+    50% {margin-left: -800px;}
+    80% {margin-left: -800px;}
+    }
+
+    h1, h2{
+        margin-left: 25px;
+        color: #ffffff;
+    }
+
+   
+
+    .text-uppercase{
+        color: #ffffff;
+    } 
+
+   
+
+        #btn_login{
+        margin-left: 25px;
+        padding: 10px 40px;
+        /* border: 2px solid darkgray;
+        background: darkgray; */
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #ffffff;
+        outline: none;
+        transition: all 300ms;
+        }
+        #btn_login:hover{
+            background: darkgray;
+            color: #46a2fd;
+        }
+
+    body{
+    background-image: url(../img/font.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+    footer{
+        padding:25px;
+        margin:20px 0;
+        backdrop-filter: blur(10px);
+        background-color: rgba(82, 82, 82, 0.699);
+    }
+
+    hr{
+        background-color: white;
+    }
+
+    .footer-copyright{
+        color: white;
+    }
